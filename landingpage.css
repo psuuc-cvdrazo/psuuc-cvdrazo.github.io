@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap');
+
+*{
+    color: aliceblue;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+section{
+
+    min-height: 100vh;
+    background: linear-gradient(50deg, rgb(0, 0, 0), rgb(20, 33, 61));  
+    background-size: cover;
+}
+
+div.headerpage{
+    width: 85%;
+    margin: auto;
+    
+}
+
+
+
+nav{
+    height: 90px;
+    font-family: 'Bruno Ace SC';
+}
+
+div.headpage img{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+ 
+}
+
+ul {
+    text-transform: uppercase;
+    text-align: center;
+    
+    
+}
+
+nav ul li{
+    margin-top: 30px;
+    list-style: none;
+    display: inline-block;
+    
+}
+
+
+nav ul li a{
+    text-decoration: none;
+    color: rgb(245, 245, 245);
+    list-style: none;
+    padding: 7px 7px;
+}
+
+.leftside{
+    margin-left: 70%;
+    transform: translatey(-8vh);
+    color: black;
+    background-color: rgb(99, 21, 21);
+    padding: 7px 0px;
+    border-radius: 30px;
+}
+
+nav ul li a:hover{
+    background-color:  rgb(252, 163, 17);
+    color: aliceblue;
+    padding: 7px 8px;
+    border-radius: 30px;
+}
+
+div.article{
+    font-family: 'Bruno Ace SC';
+    margin-right: 30%;
+    text-align: center;
+    transform: translateY(30vh);
+}
+
+div h1{
+    font-size: 44px;
+}
+
+div.article .btn{
+    text-decoration: none;
+    color: aliceblue;
+    background-color: rgb(38, 80, 94);
+    padding: 7px 8px;
+    line-height: 53px;
+    border-radius: 30px;
+    
+}
+div.article .btn:hover{
+
+    color: rgb(255, 255, 255);
+    background-color: rgb(252, 163, 17);
+    padding: 8px 8px;
+    border-radius: 30px;
+}
+
+div.article .btn2{
+    text-decoration: none;
+    color: aliceblue;
+    background-color: rgb(38, 80, 94);
+    padding: 7px 8px;
+    line-height: 50px;
+    border-radius: 30px;
+    
+}
+div.article .btn2:hover{
+
+    color: rgb(255, 255, 255);
+    background-color: rgb(252, 163, 17);
+    padding: 7px 8px;
+    border-radius: 30px;
+}
+
+
+
+div.body{
+    min-height: 100vh;
+    background: linear-gradient(100deg, rgb(0, 0, 0), rgb(20, 33, 61));  
+    background-size: cover;
+
+
+}
+div.me {
+    display: inline-block;
+}
+
+div.me img{
+    width: 350px;
+    top: 20px;
+    left: 20px;
+    border-radius: 20%;
+}
+
+
+
+div.body h2{
+    font-family: 'Bruno Ace SC';
+    font-size: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: dotted;
+}
+
+div.body ul{
+
+    padding: 5px 0px;
+    list-style: none;
+    
+}
+
+div.skill ul li{
+    background-color: rgb(38, 80, 94);
+    color: blue;
+    font-size: 90px;
+    padding: 7px 8px;
+    line-height: 50px;
+    border-radius: 30px;
+    display: inline-block;
+    margin: 20px;
+
+}
+
+div.skill ul li:hover{
+    background-color: rgb(252, 163, 17);
+    color: aqua;
+}
+
+div.hero img {
+    position: absolute;
+    margin-left: 800px;
+    height: 670px;
+    transform: translateY(-35vh);
+    
+
+}
+
+
+
+
+
+    div.footer{
+        font-family: 'Bruno Ace SC';
+        background-color: rgb(99, 21, 21);
+        padding: 20px 0px;
+     }
+     div.row{
+        display: flex;
+        flex-wrap: flex;
+     }
+ 
+     div.footer-col{
+        width: 25%;
+        padding: 0px 15px;
+     }
+     div.footer-col #col1{
+        width: 50%;
+     }
+     div.footer-col h3{
+        font-size: 15px;
+        color: white;
+        margin-bottom: 25px;
+        font-weight: 1000;   
+        position: relative;
+     }
+     div.footer-col p{
+        font-size: 13px;
+        color: white;
+        margin-bottom: 10px;    
+     }
+     div.footer-col ul{
+        list-style: none;
+     }
+     div.footer-col ul a{
+        font-size: 13px;
+        color: white;
+        margin-bottom: 10px;
+        text-decoration: none;
+        display: flex;
+        padding: 5px 5px;
+     }
+     div.footer-col ul a:hover{
+        padding: 8px 0px;
+        background-color: rgb(252, 163, 17);
+        border-radius: 10px;
+        color: black;
+        font-size: 14px;
+        font-weight: bold;
+     }
+     div.copyright{
+        background-color: black;
+        padding: 10px 0px;
+        margin: 0px;
+        text-align: center;
+     }
+     div.copyright footer p{
+        color: white;
+        text-align: center;
+        font-size: small;
+     }
